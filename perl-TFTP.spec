@@ -8,7 +8,7 @@ Summary:	TFTP - pure Perl TFTP implementation
 Summary(pl):	TFTP - czysto perlowa implementacja TFTP
 Name:		perl-TFTP
 Version:	1.0b3
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
