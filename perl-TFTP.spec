@@ -3,7 +3,7 @@
 %bcond_without	tests	# do perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	TFTP
+%define		pdir	TFTP
 Summary:	TFTP - pure Perl TFTP implementation
 Summary(pl):	TFTP - czysto perlowa implementacja TFTP
 Name:		perl-TFTP
