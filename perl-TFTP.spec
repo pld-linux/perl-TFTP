@@ -4,7 +4,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	TFTP
-Summary:	TFTP - Pure Perl TFTP implementation
+Summary:	TFTP - pure Perl TFTP implementation
 Summary(pl):	TFTP - czysto perlowa implementacja TFTP
 Name:		perl-TFTP
 Version:	1.0b3
