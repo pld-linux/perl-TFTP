@@ -10,7 +10,7 @@ Name:		perl-TFTP
 Version:	1.0b3
 Release:	1
 # same as perl
-License:	GPL or Artistic
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{version}.tar.gz
 # Source0-md5:	0c62ec431f745ca177ab01df3292c803
@@ -38,7 +38,6 @@ która mo¿e zapocz±tkowywaæ podstawowe operacje TFTP (get, put).
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
-
 %{__make}
 
 %{?with_tests:%{__make} test}
