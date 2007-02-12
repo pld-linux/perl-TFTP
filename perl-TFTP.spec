@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	TFTP
 Summary:	TFTP - pure Perl TFTP implementation
-Summary(pl):	TFTP - czysto perlowa implementacja TFTP
+Summary(pl.UTF-8):   TFTP - czysto perlowa implementacja TFTP
 Name:		perl-TFTP
 Version:	1.0b3
 Release:	2
@@ -26,11 +26,11 @@ class, TFTP, is available which encapsulates the persistent aspects of
 a TFTP connection and from which the basic TFTP operations (get, put)
 can be initiated.
 
-%description -l pl
-To jest modu³ Perla (zaimplementowany ca³kowicie w Perlu)
-dostarczaj±cy funkcjonalno¶æ klienta protoko³u TFTP opisanego w RFC
-783. Zawiera klasê TFTP opakowuj±c± sta³e aspekty po³±czenia TFTP,
-która mo¿e zapocz±tkowywaæ podstawowe operacje TFTP (get, put).
+%description -l pl.UTF-8
+To jest moduÅ‚ Perla (zaimplementowany caÅ‚kowicie w Perlu)
+dostarczajÄ…cy funkcjonalnoÅ›Ä‡ klienta protokoÅ‚u TFTP opisanego w RFC
+783. Zawiera klasÄ™ TFTP opakowujÄ…cÄ… staÅ‚e aspekty poÅ‚Ä…czenia TFTP,
+ktÃ³ra moÅ¼e zapoczÄ…tkowywaÄ‡ podstawowe operacje TFTP (get, put).
 
 %prep
 %setup -q -n %{pdir}-%{version}
