@@ -1,9 +1,9 @@
 #
 # Conditional build:
 %bcond_without	tests	# do perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	TFTP
+%include	/usr/lib/rpm/macros.perl
 Summary:	TFTP - pure Perl TFTP implementation
 Summary(pl.UTF-8):	TFTP - czysto perlowa implementacja TFTP
 Name:		perl-TFTP
@@ -14,6 +14,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{version}.tar.gz
 # Source0-md5:	0c62ec431f745ca177ab01df3292c803
+URL:		http://search.cpan.org/dist/TFTP/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
